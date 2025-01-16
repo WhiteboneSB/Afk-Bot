@@ -6,9 +6,9 @@
   },
 
   "server": {
-    "ip": "localhost",
-    "port": 25565,
-    "version": "1.19.3"
+    "ip": "AltathyCraft.aternos.me",
+    "port": 57040,
+    "version": "1.18"
   },
 
   "position": {
@@ -20,15 +20,15 @@
 
   "utils": {
     "auto-auth": {
-      "enabled": false,
+      "enabled": true,
       "password": "12345678"
     },
 
     "anti-afk": {
-      "enabled": false,
+      "enabled": true,
       "sneak": false,
-      "jump": false,
-      "rotate": false,
+      "jump": true,
+      "rotate": true,
 
       "hit": {
         "enabled": false,
@@ -37,7 +37,7 @@
       },
 
       "circle-walk": {
-        "enabled": false,
+        "enabled": true,
         "radius": 2
       }
     },
@@ -48,9 +48,9 @@
       "repeat-delay": 60,
 
       "messages": [
-        "I'm a regular player ",
-        "My owner is urFate_ ",
-        "I want be alone ",
+        "sono il bot di White ",
+        "sono il bot di Creeper ",
+        "sono il bot di DIO ",
         "Visit my GitHub page! (urFate/Afk-Bot)"
       ]
     },
